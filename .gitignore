@@ -1,0 +1,25 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Testing and Coverage
+/.phpunit.result.cache
+/tests/bin/
+/tests/coverage/
+
+# IDE and System Files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# WordPress specific (if any local dev environment files exist)
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/languages/
+*.log
+
+# Build files
+/dist/
